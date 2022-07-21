@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyoneers"
+version = "0.1.0"
+description = ""
+authors = ["Madson Dias <madsonddias@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^1.11.0"
+pandas = "^1.4.3"
+plotly = "^5.9.0"
+streamlit-pydantic = "^0.5.0"
+streamlit-option-menu = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
