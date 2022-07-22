@@ -52,14 +52,9 @@ def main():
 
     with st.expander("Mais informações"):
         st.markdown("""
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a type
-        specimen book. It has survived not only five centuries, but also the leap into
-        electronic typesetting, remaining essentially unchanged. It was popularised
-        in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-        passages, and more recently with desktop publishing software like Aldus
-        PageMaker including versions of Lorem Ipsum.
+        Quer saber o quanto vai chover nos próximos 3 meses?! O Guru das Chuvas vai te ajudar! 
+        Por gentileza, informe o mês, o ano e sua cidade para que eu possa me conectar com os astros e captar a
+        a previsão.
         """)
     # Starting Select boxes
     col1, col2, col3 = st.columns(3)
